@@ -28,7 +28,7 @@ hr {
 }
 /* nav styles  */
 header {
-  width: 100%;
+  max-width: 100%;
   background-color: #562efe;
   padding: 10px 0;
   /* width: 67.5%;
@@ -195,10 +195,12 @@ header .nav-container {
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
   }
   .blogs,
   .courses {
     grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
   }
   .player,
   .blog {
@@ -217,5 +219,6 @@ header .nav-container {
   .blogs,
   .courses {
     grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
   }
 }
