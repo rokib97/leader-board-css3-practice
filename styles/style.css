@@ -28,6 +28,7 @@ hr {
 }
 /* nav styles  */
 header {
+  width: 100%;
   background-color: #562efe;
   padding: 10px 0;
   /* width: 67.5%;
@@ -185,15 +186,10 @@ header .nav-container {
 /* phone  */
 
 @media only screen and (max-width: 688px) {
-  /* .nav-container {
-    width: 100%;
-  } */
   .navigation-items li {
     padding: 0 20px;
   }
-  .section-title {
-    margin-left: 5px;
-  }
+
   .container {
     width: 100%;
   }
@@ -211,14 +207,8 @@ header .nav-container {
 }
 /* tab responsive  */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  .nav-container {
-    width: 100%;
-  }
   .navigation-items li {
     width: 100%;
-  }
-  .section-title {
-    padding-left: 20px;
   }
   .container {
     width: 100%;
